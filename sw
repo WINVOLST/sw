@@ -1,1 +1,1 @@
-w
+your script there
