@@ -50,7 +50,7 @@ local function sendToWebhook(fruitName, weight, variant, isHeavy)
 end
 
 local function checkForNewFruits()
-    local plantsPhysical = farm:GetChildren()[6].Important.Plants_Physical
+    local plantsPhysical = workspace.Farm.Farm.Important.Plants_Physical
     local targetPlant = plantsPhysical:FindFirstChild(targetFruitName)
     
     if not targetPlant then
